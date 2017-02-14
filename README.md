@@ -1,4 +1,4 @@
-# babel-helpers
+# babel-plugin-import-helpers
 
 Generate helpers that reference named imports from a module.
 
@@ -10,4 +10,10 @@ Generate helpers that reference named imports from a module.
     ["import-helpers", { "module": "my-module/babel-helpers" }]
   ]
 }
+```
+
+adds import
+
+```js
+import { toArray } from "my-module/babel-helpers";
 ```
