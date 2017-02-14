@@ -1,0 +1,12 @@
+{
+  "name": "babel-plugin-import-helpers",
+  "version": "1.0.0",
+  "author": "Kris Selden <kris.selden@gmail.com>",
+  "description": "Make helpers named imports from module specifier",
+  "main": "lib/index.js",
+  "files": ["lib/index.js"],
+  "keywords": [
+    "babel-plugin", "babel-helpers"
+  ],
+  "license": "MIT"
+}
